@@ -8,7 +8,7 @@ jobs:
   linter:
     if: ${{ github.event_name == 'pull_request' }}
     name: Linter
-    uses: sbgisen/.github/.github/workflows/linter_ros_package.yaml@main
+    uses: h-wata/.github/.github/workflows/linter_ros_package.yaml@main
   release-drafter:
     name: Release drafter
-    uses: sbgisen/.github/.github/workflows/release-drafter.yml@main
+    uses: h-wata/.github/.github/workflows/release-drafter.yml@main
